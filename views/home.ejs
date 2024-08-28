@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Transcoding Service</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            margin: 0;
+        }
+
+        #auth-buttons button {
+            margin-left: 10px;
+        }
+
+        #upload-form {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        #upload-form label {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            padding: 0 20px;
+            font-size: 16px;
+            background-color: #76c7c0;
+            color: white;
+            border: 1px solid #76c7c0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #upload-form input[type="file"] {
+            display: none;
+        }
+
+        #upload-form select {
+            margin-left: auto;
+        }
+
+        button {
+            height: 40px;
+            font-size: 16px;
+            line-height: 40px;
+            padding: 0 20px;
+            background-color: #76c7c0;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #progress-container {
+            display: none;
+        }
+
+        #progress-bar {
+            width: 100%;
+            background-color: #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #progress {
+            height: 30px;
+            background-color: #76c7c0;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            transition: width 0.4s ease;
+        }
+
+        #download-link {
+            display: none;
+            text-align: center;
+        }
+
+        #download-link button {
+            background-color: #4caf50;
+        }
+
+        #download-link button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Video Transcoding Service</h2>
+            <div id="auth-buttons">
+                <nav>
+                    <% if (user) { %>
+                        <button onclick="window.location.href='/dashboard'">User Dashboard</button>
+                        <button onclick="window.location.href='/logout'">Logout</button>
+                        <% } else { %>
+                            <button onclick="window.location.href='/login'">Login</button>
+                            <button onclick="window.location.href='/register'">Register</button>
+                            <% } %>
+                </nav>
+            </div>
+        </div>
+
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" name="video" id="video-file" accept="video/*" required />
+            <label for="video-file">Choose File</label>
+            <span id="file-name">No file chosen</span>
+            <select name="outputFormat" id="output-format">
+                <option value="mp4">MP4</option>
+                <option value="avi">AVI</option>
+                <option value="webm">WebM</option>
+                <option value="mkv">MKV</option>
+            </select>
+            <button type="submit" id="upload-btn">Upload and Transcode</button>
+        </form>
+
+        <div id="progress-container">
+            <h3>Progress:</h3>
+            <div id="progress-bar">
+                <div id="progress">0%</div>
+            </div>
+        </div>
+
+        <div id="download-link">
+            <h3>Transcoding Completed!</h3>
+            <a id="download-btn" href="#" download>
+                <button>Download</button>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        const socket = io();
+        let currentJobId = null;
+
+        document.getElementById('video-file').addEventListener('change', function () {
+            const fileName = this.files.length ? this.files[0].name : 'No file chosen';
+            document.getElementById('file-name').textContent = fileName;
+        });
+
+        document.getElementById('upload-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const uploadBtn = document.getElementById('upload-btn');
+            uploadBtn.disabled = true;
+
+            const formData = new FormData();
+            formData.append('video', document.getElementById('video-file').files[0]);
+            formData.append('outputFormat', document.getElementById('output-format').value);
+
+            document.getElementById('progress-container').style.display = 'block';
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData,
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.message);
+                    currentJobId = data.jobId;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    uploadBtn.disabled = false;
+                });
+        });
+        
+        socket.on('progress', (data) => {
+            if (data.jobId === currentJobId) {
+                const progressElement = document.getElementById('progress');
+                progressElement.style.width = data.percent + '%';
+                progressElement.innerText = Math.round(data.percent) + '%';
+            }
+        });
+
+        socket.on('completed', (data) => {
+            if (data.jobId === currentJobId) {
+                document.getElementById('download-link').style.display = 'block';
+                document.getElementById('download-btn').href = data.downloadPath;
+                document.getElementById('upload-btn').disabled = false;
+                currentJobId = null;
+            }
+        });
+
+        socket.on('connect', () => {
+            console.log('Connected to the server');
+        });
+
+        socket.on('disconnect', () => {
+            console.log('Disconnected from the server');
+        });
+    </script>
+</body>
+</html>
