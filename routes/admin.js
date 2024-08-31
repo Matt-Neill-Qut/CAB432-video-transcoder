@@ -1,7 +1,5 @@
 const express = require('express');
-const http = require('http');
 const fs = require('fs');
-const socketIo = require('socket.io');
 const router = express.Router();
 const { isAuthenticated, isAdmin } = require('../models/user');
 const path = require('path');

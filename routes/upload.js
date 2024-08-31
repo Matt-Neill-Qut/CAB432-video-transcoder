@@ -60,8 +60,8 @@ router.post('/upload', upload.single('video'), (req, res) => {
                 err => err ? logToConsole(`Error saving transcoded file info: ${err.message}`) : logToConsole(`File record saved for: ${transcodedFileName}`)
             );
 
-            io.emit('completed', { jobId, downloadPath: outputFilePath });
-
+            io.emit('completed', { jobId, downloadPath: transcodedFileName });
+ 
             fs.unlinkSync(file.path);
             logToConsole(`Original file deleted: ${file.path}`);
             delete activeJobs[jobId];

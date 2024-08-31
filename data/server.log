@@ -4844,3 +4844,624 @@ frame=  900 fps= 40 q=29.0 size=     512KiB time=00:00:29.63 bitrate= 141.5kbits
 2024-08-28T11:49:02.627Z: Server started on http://localhost:3000
 2024-08-28T11:49:02.629Z: Connected to SQLite database.
 2024-08-28T11:49:35.159Z: Admin panel accessed by user: admin
+2024-08-28T11:54:02.577Z: Deleted 3 old file records from the database.
+2024-08-28T11:59:02.581Z: No old files to delete.
+2024-08-28T12:04:02.586Z: No old files to delete.
+2024-08-28T12:09:02.600Z: No old files to delete.
+2024-08-28T12:14:02.615Z: No old files to delete.
+2024-08-28T12:19:02.624Z: No old files to delete.
+2024-08-28T12:24:02.626Z: No old files to delete.
+2024-08-28T12:29:02.633Z: No old files to delete.
+2024-08-28T12:34:02.636Z: No old files to delete.
+2024-08-28T12:39:02.641Z: No old files to delete.
+2024-08-28T12:44:02.642Z: No old files to delete.
+2024-08-28T12:49:02.658Z: No old files to delete.
+2024-08-28T12:52:54.458Z: Server started on http://localhost:3000
+2024-08-28T12:52:54.461Z: Connected to SQLite database.
+2024-08-30T14:48:54.375Z: Directory created at C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads
+2024-08-30T14:48:54.378Z: Directory created at C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\transcoded
+2024-08-30T14:48:54.389Z: Server started on http://localhost:3000
+2024-08-30T14:48:54.390Z: Connected to SQLite database.
+2024-08-30T14:53:54.291Z: No old files to delete.
+2024-08-30T14:58:54.300Z: No old files to delete.
+2024-08-30T15:03:54.312Z: No old files to delete.
+2024-08-31T10:36:54.566Z: Server started on http://localhost:3000
+2024-08-31T10:36:54.569Z: Connected to SQLite database.
+2024-08-31T10:37:06.979Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: 03d8ddb7a143e26497977f5bdebf460a.avi
+2024-08-31T10:37:10.172Z: FFmpeg transcoding process started.
+2024-08-31T10:37:10.722Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 3%
+2024-08-31T10:37:11.236Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 6%
+2024-08-31T10:37:11.764Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 9%
+2024-08-31T10:37:12.279Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 11%
+2024-08-31T10:37:12.794Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 14%
+2024-08-31T10:37:13.308Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 17%
+2024-08-31T10:37:13.822Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 20%
+2024-08-31T10:37:14.337Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 23%
+2024-08-31T10:37:14.851Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 25%
+2024-08-31T10:37:15.366Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 28%
+2024-08-31T10:37:15.882Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 31%
+2024-08-31T10:37:16.395Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 34%
+2024-08-31T10:37:16.920Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 37%
+2024-08-31T10:37:17.434Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 40%
+2024-08-31T10:37:17.948Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 42%
+2024-08-31T10:37:18.461Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 45%
+2024-08-31T10:37:18.974Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 48%
+2024-08-31T10:37:19.489Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 51%
+2024-08-31T10:37:20.002Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 53%
+2024-08-31T10:37:20.531Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 56%
+2024-08-31T10:37:21.048Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 59%
+2024-08-31T10:37:21.560Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 62%
+2024-08-31T10:37:22.073Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 64%
+2024-08-31T10:37:22.585Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 67%
+2024-08-31T10:37:23.100Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 70%
+2024-08-31T10:37:23.612Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 72%
+2024-08-31T10:37:24.127Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 75%
+2024-08-31T10:37:24.655Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 78%
+2024-08-31T10:37:25.170Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 81%
+2024-08-31T10:37:25.685Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 84%
+2024-08-31T10:37:26.198Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 87%
+2024-08-31T10:37:26.712Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 89%
+2024-08-31T10:37:27.227Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 92%
+2024-08-31T10:37:27.742Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 95%
+2024-08-31T10:37:28.256Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 98%
+2024-08-31T10:37:28.659Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding progress: 100%
+2024-08-31T10:37:28.676Z: 03d8ddb7a143e26497977f5bdebf460a.avi => Transcoding completed.
+2024-08-31T10:37:28.679Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\03d8ddb7a143e26497977f5bdebf460a
+2024-08-31T10:37:28.686Z: File record saved for: 03d8ddb7a143e26497977f5bdebf460a.avi
+2024-08-31T10:39:07.919Z: Server started on http://localhost:3000
+2024-08-31T10:39:07.922Z: Connected to SQLite database.
+2024-08-31T10:39:33.542Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: 8ba29b29c80b7738edae4fc5bd68c199.avi
+2024-08-31T10:39:33.613Z: FFmpeg transcoding process started.
+2024-08-31T10:39:34.164Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 2%
+2024-08-31T10:39:34.681Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 5%
+2024-08-31T10:39:35.199Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 8%
+2024-08-31T10:39:35.714Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 11%
+2024-08-31T10:39:36.231Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 13%
+2024-08-31T10:39:36.745Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 16%
+2024-08-31T10:39:37.259Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 19%
+2024-08-31T10:39:37.774Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 21%
+2024-08-31T10:39:38.290Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 24%
+2024-08-31T10:39:38.803Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 27%
+2024-08-31T10:39:39.315Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 30%
+2024-08-31T10:39:39.829Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 32%
+2024-08-31T10:39:40.346Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 35%
+2024-08-31T10:39:40.875Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 38%
+2024-08-31T10:39:41.390Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 41%
+2024-08-31T10:39:41.904Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 44%
+2024-08-31T10:39:42.420Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 47%
+2024-08-31T10:39:42.932Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 49%
+2024-08-31T10:39:43.446Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 52%
+2024-08-31T10:39:43.960Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 55%
+2024-08-31T10:39:44.475Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 58%
+2024-08-31T10:39:44.991Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 60%
+2024-08-31T10:39:45.508Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 63%
+2024-08-31T10:39:46.026Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 66%
+2024-08-31T10:39:46.541Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 69%
+2024-08-31T10:39:47.055Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 72%
+2024-08-31T10:39:47.576Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 74%
+2024-08-31T10:39:48.091Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 77%
+2024-08-31T10:39:48.607Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 80%
+2024-08-31T10:39:49.122Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 83%
+2024-08-31T10:39:49.638Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 86%
+2024-08-31T10:39:50.154Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 88%
+2024-08-31T10:39:50.668Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 91%
+2024-08-31T10:39:51.182Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 94%
+2024-08-31T10:39:51.699Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 97%
+2024-08-31T10:39:52.212Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 100%
+2024-08-31T10:39:52.292Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding progress: 100%
+2024-08-31T10:39:52.308Z: 8ba29b29c80b7738edae4fc5bd68c199.avi => Transcoding completed.
+2024-08-31T10:39:52.311Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\8ba29b29c80b7738edae4fc5bd68c199
+2024-08-31T10:39:52.318Z: File record saved for: 8ba29b29c80b7738edae4fc5bd68c199.avi
+2024-08-31T10:40:35.795Z: Server started on http://localhost:3000
+2024-08-31T10:40:35.798Z: Connected to SQLite database.
+2024-08-31T10:40:41.681Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: f7786b76284023832d188225d03cf0bd.avi
+2024-08-31T10:40:41.752Z: FFmpeg transcoding process started.
+2024-08-31T10:40:42.307Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 2%
+2024-08-31T10:40:42.824Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 5%
+2024-08-31T10:40:43.339Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 8%
+2024-08-31T10:40:43.855Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 11%
+2024-08-31T10:40:44.369Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 13%
+2024-08-31T10:40:44.882Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 16%
+2024-08-31T10:40:45.400Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 18%
+2024-08-31T10:40:45.917Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 21%
+2024-08-31T10:40:46.431Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 24%
+2024-08-31T10:40:46.945Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 26%
+2024-08-31T10:40:47.458Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 29%
+2024-08-31T10:40:47.972Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 32%
+2024-08-31T10:40:48.485Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 34%
+2024-08-31T10:40:49.015Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 37%
+2024-08-31T10:40:49.528Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 40%
+2024-08-31T10:40:50.042Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 43%
+2024-08-31T10:40:50.556Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 45%
+2024-08-31T10:40:51.070Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 48%
+2024-08-31T10:40:51.585Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 50%
+2024-08-31T10:40:52.098Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 53%
+2024-08-31T10:40:52.613Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 56%
+2024-08-31T10:40:53.126Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 59%
+2024-08-31T10:40:53.656Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 62%
+2024-08-31T10:40:54.173Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 64%
+2024-08-31T10:40:54.702Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 67%
+2024-08-31T10:40:55.214Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 70%
+2024-08-31T10:40:55.729Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 73%
+2024-08-31T10:40:56.240Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 76%
+2024-08-31T10:40:56.752Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 78%
+2024-08-31T10:40:57.280Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 81%
+2024-08-31T10:40:57.795Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 84%
+2024-08-31T10:40:58.310Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 87%
+2024-08-31T10:40:58.822Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 89%
+2024-08-31T10:40:59.337Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 92%
+2024-08-31T10:40:59.850Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 95%
+2024-08-31T10:41:00.361Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 98%
+2024-08-31T10:41:00.754Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding progress: 100%
+2024-08-31T10:41:00.770Z: f7786b76284023832d188225d03cf0bd.avi => Transcoding completed.
+2024-08-31T10:41:00.773Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\f7786b76284023832d188225d03cf0bd
+2024-08-31T10:41:00.780Z: File record saved for: f7786b76284023832d188225d03cf0bd.avi
+2024-08-31T10:45:35.736Z: No old files to delete.
+2024-08-31T10:50:35.745Z: No old files to delete.
+2024-08-31T10:51:55.564Z: Server started on http://localhost:3000
+2024-08-31T10:51:55.567Z: Connected to SQLite database.
+2024-08-31T10:52:16.740Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: b364f4a48c23c16e4002bb7e40ae9acd.avi
+2024-08-31T10:52:16.808Z: FFmpeg transcoding process started.
+2024-08-31T10:52:17.356Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 3%
+2024-08-31T10:52:17.870Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 5%
+2024-08-31T10:52:18.382Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 8%
+2024-08-31T10:52:18.897Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 11%
+2024-08-31T10:52:19.412Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 14%
+2024-08-31T10:52:19.927Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 17%
+2024-08-31T10:52:20.441Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 19%
+2024-08-31T10:52:20.957Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 22%
+2024-08-31T10:52:21.475Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 25%
+2024-08-31T10:52:21.989Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 28%
+2024-08-31T10:52:22.503Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 31%
+2024-08-31T10:52:23.019Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 34%
+2024-08-31T10:52:23.536Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 37%
+2024-08-31T10:52:24.049Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 39%
+2024-08-31T10:52:24.566Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 42%
+2024-08-31T10:52:25.084Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 45%
+2024-08-31T10:52:25.596Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 48%
+2024-08-31T10:52:26.124Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 51%
+2024-08-31T10:52:26.641Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 54%
+2024-08-31T10:52:27.153Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 56%
+2024-08-31T10:52:27.671Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 59%
+2024-08-31T10:52:28.172Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 62%
+2024-08-31T10:52:28.703Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 65%
+2024-08-31T10:52:29.213Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 68%
+2024-08-31T10:52:29.728Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 70%
+2024-08-31T10:52:30.241Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 73%
+2024-08-31T10:52:30.758Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 76%
+2024-08-31T10:52:31.271Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 78%
+2024-08-31T10:52:31.789Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 81%
+2024-08-31T10:52:32.302Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 84%
+2024-08-31T10:52:32.820Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 87%
+2024-08-31T10:52:33.334Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 89%
+2024-08-31T10:52:33.849Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 92%
+2024-08-31T10:52:34.362Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 95%
+2024-08-31T10:52:34.891Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 98%
+2024-08-31T10:52:35.276Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding progress: 100%
+2024-08-31T10:52:35.292Z: b364f4a48c23c16e4002bb7e40ae9acd.avi => Transcoding completed.
+2024-08-31T10:52:35.295Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\b364f4a48c23c16e4002bb7e40ae9acd
+2024-08-31T10:52:35.301Z: File record saved for: b364f4a48c23c16e4002bb7e40ae9acd.avi
+2024-08-31T10:52:53.907Z: Server started on http://localhost:3000
+2024-08-31T10:52:53.910Z: Connected to SQLite database.
+2024-08-31T10:53:00.960Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: 0a021c1bf0833db8c67b406934089fe3.avi
+2024-08-31T10:53:01.029Z: FFmpeg transcoding process started.
+2024-08-31T10:53:01.587Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 2%
+2024-08-31T10:53:02.100Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 4%
+2024-08-31T10:53:02.613Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 7%
+2024-08-31T10:53:03.131Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 9%
+2024-08-31T10:53:03.645Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 12%
+2024-08-31T10:53:04.160Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 15%
+2024-08-31T10:53:04.676Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 18%
+2024-08-31T10:53:05.189Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 21%
+2024-08-31T10:53:05.705Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 23%
+2024-08-31T10:53:06.221Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 26%
+2024-08-31T10:53:06.750Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 29%
+2024-08-31T10:53:07.251Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 32%
+2024-08-31T10:53:07.781Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 35%
+2024-08-31T10:53:08.296Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 38%
+2024-08-31T10:53:08.809Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 40%
+2024-08-31T10:53:09.325Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 43%
+2024-08-31T10:53:09.840Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 46%
+2024-08-31T10:53:10.353Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 49%
+2024-08-31T10:53:10.869Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 51%
+2024-08-31T10:53:11.382Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 54%
+2024-08-31T10:53:11.895Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 57%
+2024-08-31T10:53:12.411Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 60%
+2024-08-31T10:53:12.924Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 63%
+2024-08-31T10:53:13.453Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 66%
+2024-08-31T10:53:13.968Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 69%
+2024-08-31T10:53:14.483Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 71%
+2024-08-31T10:53:14.997Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 74%
+2024-08-31T10:53:15.511Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 77%
+2024-08-31T10:53:16.024Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 80%
+2024-08-31T10:53:16.538Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 83%
+2024-08-31T10:53:17.052Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 86%
+2024-08-31T10:53:17.578Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 89%
+2024-08-31T10:53:18.092Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 91%
+2024-08-31T10:53:18.607Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 94%
+2024-08-31T10:53:19.120Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 97%
+2024-08-31T10:53:19.639Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 99%
+2024-08-31T10:53:19.738Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding progress: 100%
+2024-08-31T10:53:19.753Z: 0a021c1bf0833db8c67b406934089fe3.avi => Transcoding completed.
+2024-08-31T10:53:19.756Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\0a021c1bf0833db8c67b406934089fe3
+2024-08-31T10:53:19.764Z: File record saved for: 0a021c1bf0833db8c67b406934089fe3.avi
+2024-08-31T10:54:50.099Z: Server started on http://localhost:3000
+2024-08-31T10:54:50.102Z: Connected to SQLite database.
+2024-08-31T10:54:55.003Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: mp4 => saving as: 499a370555dfdf113b99fb447622bbd1.mp4
+2024-08-31T10:54:55.092Z: FFmpeg transcoding process started.
+2024-08-31T10:54:55.667Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 0%
+2024-08-31T10:54:56.180Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 2%
+2024-08-31T10:54:56.697Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 4%
+2024-08-31T10:54:57.214Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 5%
+2024-08-31T10:54:57.730Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 7%
+2024-08-31T10:54:58.248Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 9%
+2024-08-31T10:54:58.766Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 11%
+2024-08-31T10:54:59.269Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 13%
+2024-08-31T10:54:59.782Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 14%
+2024-08-31T10:55:00.314Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 16%
+2024-08-31T10:55:00.829Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 18%
+2024-08-31T10:55:01.343Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 19%
+2024-08-31T10:55:01.859Z: 499a370555dfdf113b99fb447622bbd1.mp4 => Transcoding progress: 21%
+2024-08-31T10:55:02.655Z: Server started on http://localhost:3000
+2024-08-31T10:55:02.658Z: Connected to SQLite database.
+2024-08-31T10:55:07.230Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: 0e3d0e972310c1de7be0815dd76c7d2b.avi
+2024-08-31T10:55:07.304Z: FFmpeg transcoding process started.
+2024-08-31T10:55:07.846Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 2%
+2024-08-31T10:55:08.373Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 5%
+2024-08-31T10:55:08.890Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 8%
+2024-08-31T10:55:09.406Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 10%
+2024-08-31T10:55:09.919Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 13%
+2024-08-31T10:55:10.435Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 16%
+2024-08-31T10:55:10.950Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 18%
+2024-08-31T10:55:11.465Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 21%
+2024-08-31T10:55:11.978Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 24%
+2024-08-31T10:55:12.494Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 26%
+2024-08-31T10:55:13.007Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 29%
+2024-08-31T10:55:13.518Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 32%
+2024-08-31T10:55:14.043Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 35%
+2024-08-31T10:55:14.558Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 37%
+2024-08-31T10:55:15.071Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 40%
+2024-08-31T10:55:15.595Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 43%
+2024-08-31T10:55:16.113Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 45%
+2024-08-31T10:55:16.635Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 48%
+2024-08-31T10:55:17.142Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 51%
+2024-08-31T10:55:17.666Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 54%
+2024-08-31T10:55:18.182Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 57%
+2024-08-31T10:55:18.700Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 60%
+2024-08-31T10:55:19.218Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 63%
+2024-08-31T10:55:19.724Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 65%
+2024-08-31T10:55:20.244Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 68%
+2024-08-31T10:55:20.762Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 71%
+2024-08-31T10:55:21.280Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 74%
+2024-08-31T10:55:21.790Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 76%
+2024-08-31T10:55:22.309Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 79%
+2024-08-31T10:55:22.817Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 82%
+2024-08-31T10:55:23.339Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 85%
+2024-08-31T10:55:23.854Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 87%
+2024-08-31T10:55:24.361Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 90%
+2024-08-31T10:55:24.885Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 93%
+2024-08-31T10:55:25.393Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 95%
+2024-08-31T10:55:25.919Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 98%
+2024-08-31T10:55:26.219Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding progress: 100%
+2024-08-31T10:55:26.235Z: 0e3d0e972310c1de7be0815dd76c7d2b.avi => Transcoding completed.
+2024-08-31T10:55:26.238Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\0e3d0e972310c1de7be0815dd76c7d2b
+2024-08-31T10:55:26.245Z: File record saved for: 0e3d0e972310c1de7be0815dd76c7d2b.avi
+2024-08-31T11:00:02.595Z: Deleted file: 03d8ddb7a143e26497977f5bdebf460a.avi
+2024-08-31T11:00:02.597Z: Deleted 3 old file records from the database.
+2024-08-31T11:00:02.603Z: Deleted file: 8ba29b29c80b7738edae4fc5bd68c199.avi
+2024-08-31T11:00:02.608Z: Deleted file: f7786b76284023832d188225d03cf0bd.avi
+2024-08-31T11:05:02.599Z: No old files to delete.
+2024-08-31T11:07:57.351Z: Server started on http://localhost:3000
+2024-08-31T11:07:57.354Z: Connected to SQLite database.
+2024-08-31T11:08:05.431Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: 8cf2297f8e8c419fa45173c8574a785d.avi
+2024-08-31T11:08:05.500Z: FFmpeg transcoding process started.
+2024-08-31T11:08:06.062Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 3%
+2024-08-31T11:08:06.576Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 6%
+2024-08-31T11:08:07.090Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 9%
+2024-08-31T11:08:07.604Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 12%
+2024-08-31T11:08:08.117Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 14%
+2024-08-31T11:08:08.629Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 17%
+2024-08-31T11:08:09.148Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 20%
+2024-08-31T11:08:09.666Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 23%
+2024-08-31T11:08:10.182Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 26%
+2024-08-31T11:08:10.698Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 29%
+2024-08-31T11:08:11.211Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 32%
+2024-08-31T11:08:11.728Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 35%
+2024-08-31T11:08:12.242Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 37%
+2024-08-31T11:08:12.757Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 40%
+2024-08-31T11:08:13.269Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 43%
+2024-08-31T11:08:13.787Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 46%
+2024-08-31T11:08:14.301Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 49%
+2024-08-31T11:08:14.816Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 52%
+2024-08-31T11:08:15.337Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 55%
+2024-08-31T11:08:15.849Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 58%
+2024-08-31T11:08:16.364Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 61%
+2024-08-31T11:08:16.879Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 64%
+2024-08-31T11:08:17.392Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 66%
+2024-08-31T11:08:17.908Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 69%
+2024-08-31T11:08:18.437Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 72%
+2024-08-31T11:08:18.950Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 75%
+2024-08-31T11:08:19.465Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 78%
+2024-08-31T11:08:19.978Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 81%
+2024-08-31T11:08:20.494Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 84%
+2024-08-31T11:08:21.012Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 87%
+2024-08-31T11:08:21.527Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 90%
+2024-08-31T11:08:22.040Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 93%
+2024-08-31T11:08:22.556Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 96%
+2024-08-31T11:08:23.069Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 98%
+2024-08-31T11:08:23.345Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding progress: 100%
+2024-08-31T11:08:23.361Z: 8cf2297f8e8c419fa45173c8574a785d.avi => Transcoding completed.
+2024-08-31T11:08:23.364Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\8cf2297f8e8c419fa45173c8574a785d
+2024-08-31T11:08:23.371Z: File record saved for: 8cf2297f8e8c419fa45173c8574a785d.avi
+2024-08-31T11:12:57.294Z: Deleted file: b364f4a48c23c16e4002bb7e40ae9acd.avi
+2024-08-31T11:12:57.298Z: Deleted file: 0a021c1bf0833db8c67b406934089fe3.avi
+2024-08-31T11:12:57.304Z: Deleted 3 old file records from the database.
+2024-08-31T11:12:57.305Z: Deleted file: 0e3d0e972310c1de7be0815dd76c7d2b.avi
+2024-08-31T11:17:57.293Z: No old files to delete.
+2024-08-31T11:22:57.307Z: No old files to delete.
+2024-08-31T11:27:57.314Z: Deleted file: 8cf2297f8e8c419fa45173c8574a785d.avi
+2024-08-31T11:27:57.315Z: Deleted 1 old file records from the database.
+2024-08-31T11:32:57.316Z: No old files to delete.
+2024-08-31T11:37:36.449Z: Server started on http://localhost:3000
+2024-08-31T11:37:36.452Z: Connected to SQLite database.
+2024-08-31T11:37:45.369Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: 423c457e6da12639107d259d2417ae53.avi
+2024-08-31T11:37:45.438Z: FFmpeg transcoding process started.
+2024-08-31T11:37:45.986Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 3%
+2024-08-31T11:37:46.517Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 6%
+2024-08-31T11:37:47.046Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 9%
+2024-08-31T11:37:47.559Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 12%
+2024-08-31T11:37:48.075Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 15%
+2024-08-31T11:37:48.590Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 18%
+2024-08-31T11:37:49.102Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 21%
+2024-08-31T11:37:49.619Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 23%
+2024-08-31T11:37:50.129Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 26%
+2024-08-31T11:37:50.647Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 29%
+2024-08-31T11:37:51.165Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 32%
+2024-08-31T11:37:51.680Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 35%
+2024-08-31T11:37:52.192Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 38%
+2024-08-31T11:37:52.706Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 41%
+2024-08-31T11:37:53.221Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 44%
+2024-08-31T11:37:53.749Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 47%
+2024-08-31T11:37:54.263Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 49%
+2024-08-31T11:37:54.778Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 52%
+2024-08-31T11:37:55.291Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 55%
+2024-08-31T11:37:55.808Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 58%
+2024-08-31T11:37:56.323Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 61%
+2024-08-31T11:37:56.836Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 64%
+2024-08-31T11:37:57.352Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 67%
+2024-08-31T11:37:57.866Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 69%
+2024-08-31T11:37:58.379Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 72%
+2024-08-31T11:37:58.893Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 75%
+2024-08-31T11:37:59.422Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 78%
+2024-08-31T11:37:59.924Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 81%
+2024-08-31T11:38:00.440Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 84%
+2024-08-31T11:38:00.969Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 87%
+2024-08-31T11:38:01.483Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 90%
+2024-08-31T11:38:01.999Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 93%
+2024-08-31T11:38:02.514Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 96%
+2024-08-31T11:38:03.028Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 98%
+2024-08-31T11:38:03.302Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding progress: 100%
+2024-08-31T11:38:03.318Z: 423c457e6da12639107d259d2417ae53.avi => Transcoding completed.
+2024-08-31T11:38:03.322Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\423c457e6da12639107d259d2417ae53
+2024-08-31T11:38:03.328Z: File record saved for: 423c457e6da12639107d259d2417ae53.avi
+2024-08-31T11:41:34.695Z: Server started on http://localhost:3000
+2024-08-31T11:41:34.698Z: Connected to SQLite database.
+2024-08-31T11:41:41.248Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: d37896f116354e67d8c85b19c9dfdbc5.avi
+2024-08-31T11:41:41.321Z: FFmpeg transcoding process started.
+2024-08-31T11:41:41.865Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 3%
+2024-08-31T11:41:42.380Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 6%
+2024-08-31T11:41:42.897Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 9%
+2024-08-31T11:41:43.414Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 11%
+2024-08-31T11:41:43.931Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 14%
+2024-08-31T11:41:44.443Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 17%
+2024-08-31T11:41:44.961Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 20%
+2024-08-31T11:41:45.474Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 23%
+2024-08-31T11:41:45.990Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 26%
+2024-08-31T11:41:46.506Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 29%
+2024-08-31T11:41:47.020Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 32%
+2024-08-31T11:41:47.537Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 35%
+2024-08-31T11:41:48.050Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 38%
+2024-08-31T11:41:48.568Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 40%
+2024-08-31T11:41:49.082Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 43%
+2024-08-31T11:41:49.599Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 46%
+2024-08-31T11:41:50.113Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 49%
+2024-08-31T11:41:50.630Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 52%
+2024-08-31T11:41:51.142Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 55%
+2024-08-31T11:41:51.659Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 58%
+2024-08-31T11:41:52.174Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 61%
+2024-08-31T11:41:52.689Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 64%
+2024-08-31T11:41:53.205Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 67%
+2024-08-31T11:41:53.735Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 70%
+2024-08-31T11:41:54.264Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 73%
+2024-08-31T11:41:54.780Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 75%
+2024-08-31T11:41:55.283Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 78%
+2024-08-31T11:41:55.799Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 81%
+2024-08-31T11:41:56.328Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 84%
+2024-08-31T11:41:56.842Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 87%
+2024-08-31T11:41:57.356Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 90%
+2024-08-31T11:41:57.870Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 93%
+2024-08-31T11:41:58.386Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 95%
+2024-08-31T11:41:58.900Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 98%
+2024-08-31T11:41:59.193Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding progress: 100%
+2024-08-31T11:41:59.208Z: d37896f116354e67d8c85b19c9dfdbc5.avi => Transcoding completed.
+2024-08-31T11:41:59.211Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\d37896f116354e67d8c85b19c9dfdbc5
+2024-08-31T11:41:59.218Z: File record saved for: d37896f116354e67d8c85b19c9dfdbc5.avi
+2024-08-31T11:46:03.411Z: Server started on http://localhost:3000
+2024-08-31T11:46:03.415Z: Connected to SQLite database.
+2024-08-31T11:46:14.965Z: Server started on http://localhost:3000
+2024-08-31T11:46:14.970Z: Connected to SQLite database.
+2024-08-31T11:46:27.245Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: b8073caf0d738f789a44453c3b0c3e6d.avi
+2024-08-31T11:46:27.315Z: FFmpeg transcoding process started.
+2024-08-31T11:46:27.867Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 3%
+2024-08-31T11:46:28.376Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 6%
+2024-08-31T11:46:28.904Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 9%
+2024-08-31T11:46:29.419Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 12%
+2024-08-31T11:46:29.931Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 14%
+2024-08-31T11:46:30.443Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 17%
+2024-08-31T11:46:30.958Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 20%
+2024-08-31T11:46:31.486Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 23%
+2024-08-31T11:46:32.012Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 26%
+2024-08-31T11:46:32.528Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 29%
+2024-08-31T11:46:33.043Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 31%
+2024-08-31T11:46:33.557Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 34%
+2024-08-31T11:46:34.070Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 37%
+2024-08-31T11:46:34.584Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 40%
+2024-08-31T11:46:35.097Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 42%
+2024-08-31T11:46:35.610Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 45%
+2024-08-31T11:46:36.141Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 48%
+2024-08-31T11:46:36.652Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 51%
+2024-08-31T11:46:37.166Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 54%
+2024-08-31T11:46:37.678Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 57%
+2024-08-31T11:46:38.191Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 59%
+2024-08-31T11:46:38.718Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 62%
+2024-08-31T11:46:39.232Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 65%
+2024-08-31T11:46:39.746Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 68%
+2024-08-31T11:46:40.260Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 71%
+2024-08-31T11:46:40.770Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 73%
+2024-08-31T11:46:41.284Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 76%
+2024-08-31T11:46:41.813Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 79%
+2024-08-31T11:46:42.325Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 82%
+2024-08-31T11:46:42.839Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 85%
+2024-08-31T11:46:43.354Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 88%
+2024-08-31T11:46:43.870Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 91%
+2024-08-31T11:46:44.387Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 93%
+2024-08-31T11:46:44.897Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 96%
+2024-08-31T11:46:45.410Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 99%
+2024-08-31T11:46:45.553Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding progress: 100%
+2024-08-31T11:46:45.570Z: b8073caf0d738f789a44453c3b0c3e6d.avi => Transcoding completed.
+2024-08-31T11:46:45.573Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\b8073caf0d738f789a44453c3b0c3e6d
+2024-08-31T11:46:45.579Z: File record saved for: b8073caf0d738f789a44453c3b0c3e6d.avi
+2024-08-31T11:46:52.247Z: Server started on http://localhost:3000
+2024-08-31T11:46:52.251Z: Connected to SQLite database.
+2024-08-31T11:46:59.122Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: fb46f2c0fee7054b63616004a6d71540.avi
+2024-08-31T11:46:59.195Z: FFmpeg transcoding process started.
+2024-08-31T11:46:59.739Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 3%
+2024-08-31T11:47:00.253Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 6%
+2024-08-31T11:47:00.780Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 9%
+2024-08-31T11:47:01.293Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 11%
+2024-08-31T11:47:01.800Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 14%
+2024-08-31T11:47:02.313Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 17%
+2024-08-31T11:47:02.843Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 20%
+2024-08-31T11:47:03.355Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 23%
+2024-08-31T11:47:03.869Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 26%
+2024-08-31T11:47:04.383Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 29%
+2024-08-31T11:47:04.897Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 31%
+2024-08-31T11:47:05.408Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 34%
+2024-08-31T11:47:05.923Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 37%
+2024-08-31T11:47:06.450Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 40%
+2024-08-31T11:47:06.965Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 43%
+2024-08-31T11:47:07.480Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 46%
+2024-08-31T11:47:07.994Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 48%
+2024-08-31T11:47:08.510Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 51%
+2024-08-31T11:47:09.024Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 54%
+2024-08-31T11:47:09.538Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 57%
+2024-08-31T11:47:10.053Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 60%
+2024-08-31T11:47:10.578Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 62%
+2024-08-31T11:47:11.090Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 65%
+2024-08-31T11:47:11.603Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 68%
+2024-08-31T11:47:12.116Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 71%
+2024-08-31T11:47:12.631Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 74%
+2024-08-31T11:47:13.143Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 77%
+2024-08-31T11:47:13.670Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 80%
+2024-08-31T11:47:14.184Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 82%
+2024-08-31T11:47:14.697Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 85%
+2024-08-31T11:47:15.210Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 88%
+2024-08-31T11:47:15.723Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 91%
+2024-08-31T11:47:16.236Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 93%
+2024-08-31T11:47:16.764Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 96%
+2024-08-31T11:47:17.279Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 99%
+2024-08-31T11:47:17.494Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding progress: 100%
+2024-08-31T11:47:17.510Z: fb46f2c0fee7054b63616004a6d71540.avi => Transcoding completed.
+2024-08-31T11:47:17.513Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\fb46f2c0fee7054b63616004a6d71540
+2024-08-31T11:47:17.519Z: File record saved for: fb46f2c0fee7054b63616004a6d71540.avi
+2024-08-31T11:47:51.585Z: Server started on http://localhost:3000
+2024-08-31T11:47:51.589Z: Connected to SQLite database.
+2024-08-31T11:47:57.541Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: e398f3deb8671f1f3d64b2ed2da4c91e.avi
+2024-08-31T11:47:57.615Z: FFmpeg transcoding process started.
+2024-08-31T11:47:58.165Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 3%
+2024-08-31T11:47:58.679Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 6%
+2024-08-31T11:47:59.194Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 9%
+2024-08-31T11:47:59.707Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 11%
+2024-08-31T11:48:00.221Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 14%
+2024-08-31T11:48:00.750Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 17%
+2024-08-31T11:48:01.265Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 20%
+2024-08-31T11:48:01.767Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 23%
+2024-08-31T11:48:02.294Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 26%
+2024-08-31T11:48:02.805Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 29%
+2024-08-31T11:48:03.319Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 32%
+2024-08-31T11:48:03.833Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 35%
+2024-08-31T11:48:04.346Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 37%
+2024-08-31T11:48:04.863Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 40%
+2024-08-31T11:48:05.379Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 43%
+2024-08-31T11:48:05.892Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 46%
+2024-08-31T11:48:06.409Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 49%
+2024-08-31T11:48:06.923Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 52%
+2024-08-31T11:48:07.453Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 55%
+2024-08-31T11:48:07.967Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 57%
+2024-08-31T11:48:08.482Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 60%
+2024-08-31T11:48:08.994Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 63%
+2024-08-31T11:48:09.508Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 66%
+2024-08-31T11:48:10.021Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 69%
+2024-08-31T11:48:10.534Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 72%
+2024-08-31T11:48:11.062Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 75%
+2024-08-31T11:48:11.577Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 78%
+2024-08-31T11:48:12.093Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 81%
+2024-08-31T11:48:12.608Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 84%
+2024-08-31T11:48:13.122Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 87%
+2024-08-31T11:48:13.637Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 90%
+2024-08-31T11:48:14.154Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 93%
+2024-08-31T11:48:14.670Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 95%
+2024-08-31T11:48:15.185Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 98%
+2024-08-31T11:48:15.491Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding progress: 100%
+2024-08-31T11:48:15.508Z: e398f3deb8671f1f3d64b2ed2da4c91e.avi => Transcoding completed.
+2024-08-31T11:48:15.511Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\e398f3deb8671f1f3d64b2ed2da4c91e
+2024-08-31T11:48:15.518Z: File record saved for: e398f3deb8671f1f3d64b2ed2da4c91e.avi
+2024-08-31T11:52:10.834Z: Server started on http://localhost:3000
+2024-08-31T11:52:10.838Z: Connected to SQLite database.
+2024-08-31T11:52:18.594Z: Transcoding started for file: CAB401_Assignment_1_n10256164 (1).mov to format: avi => saving as: 22b5506109cd63c7661afec23da700e7.avi
+2024-08-31T11:52:18.674Z: FFmpeg transcoding process started.
+2024-08-31T11:52:19.224Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 3%
+2024-08-31T11:52:19.740Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 6%
+2024-08-31T11:52:20.257Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 9%
+2024-08-31T11:52:20.771Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 11%
+2024-08-31T11:52:21.282Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 14%
+2024-08-31T11:52:21.812Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 17%
+2024-08-31T11:52:22.321Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 20%
+2024-08-31T11:52:22.836Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 23%
+2024-08-31T11:52:23.350Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 26%
+2024-08-31T11:52:23.867Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 29%
+2024-08-31T11:52:24.384Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 32%
+2024-08-31T11:52:24.900Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 35%
+2024-08-31T11:52:25.415Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 37%
+2024-08-31T11:52:25.928Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 40%
+2024-08-31T11:52:26.444Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 43%
+2024-08-31T11:52:26.959Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 46%
+2024-08-31T11:52:27.472Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 49%
+2024-08-31T11:52:27.985Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 52%
+2024-08-31T11:52:28.515Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 55%
+2024-08-31T11:52:29.030Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 58%
+2024-08-31T11:52:29.545Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 61%
+2024-08-31T11:52:30.058Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 63%
+2024-08-31T11:52:30.572Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 66%
+2024-08-31T11:52:31.084Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 69%
+2024-08-31T11:52:31.598Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 72%
+2024-08-31T11:52:32.111Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 74%
+2024-08-31T11:52:32.641Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 77%
+2024-08-31T11:52:33.170Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 80%
+2024-08-31T11:52:33.683Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 83%
+2024-08-31T11:52:34.199Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 86%
+2024-08-31T11:52:34.710Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 89%
+2024-08-31T11:52:35.224Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 92%
+2024-08-31T11:52:35.741Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 95%
+2024-08-31T11:52:36.253Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 97%
+2024-08-31T11:52:36.701Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding progress: 100%
+2024-08-31T11:52:36.718Z: 22b5506109cd63c7661afec23da700e7.avi => Transcoding completed.
+2024-08-31T11:52:36.721Z: Original file deleted: C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads\22b5506109cd63c7661afec23da700e7
+2024-08-31T11:52:36.735Z: File record saved for: 22b5506109cd63c7661afec23da700e7.avi
+2024-08-31T11:56:51.982Z: Directory created at C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\uploads
+2024-08-31T11:56:51.984Z: Directory created at C:\Users\mattn\Documents\CAB432\video-transcoding-service\data\transcoded
+2024-08-31T11:56:52.032Z: Server started on http://localhost:3000
+2024-08-31T11:56:52.034Z: Connected to SQLite database.
+2024-08-31T12:06:26.422Z: Server started on http://localhost:3000
+2024-08-31T12:06:26.426Z: Connected to SQLite database.
+2024-08-31T12:06:36.997Z: Admin panel accessed by user: admin

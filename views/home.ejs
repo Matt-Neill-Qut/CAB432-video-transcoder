@@ -117,9 +117,50 @@
         #download-link button:hover {
             background-color: #45a049;
         }
+        #news-container {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        #news-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #news-list li {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #news-list li:last-child {
+            border-bottom: none;
+        }
+
+        .news-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .news-description {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .news-link {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .news-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
-
 <body>
     <div class="container">
         <div class="header">
@@ -129,10 +170,10 @@
                     <% if (user) { %>
                         <button onclick="window.location.href='/dashboard'">User Dashboard</button>
                         <button onclick="window.location.href='/logout'">Logout</button>
-                        <% } else { %>
-                            <button onclick="window.location.href='/login'">Login</button>
-                            <button onclick="window.location.href='/register'">Register</button>
-                            <% } %>
+                    <% } else { %>
+                        <button onclick="window.location.href='/login'">Login</button>
+                        <button onclick="window.location.href='/register'">Register</button>
+                    <% } %>
                 </nav>
             </div>
         </div>
@@ -150,10 +191,15 @@
             <button type="submit" id="upload-btn">Upload and Transcode</button>
         </form>
 
+        <div id="news-container" style="display: none;">
+            <h2>Latest news to read while your file transcodes!</h2>
+            <ul id="news-list"></ul>
+        </div>
+
         <div id="progress-container">
             <h3>Progress:</h3>
             <div id="progress-bar">
-                <div id="progress">0%</div>
+                <div id="progress">0%</</div>
             </div>
         </div>
 
@@ -186,6 +232,8 @@
 
             document.getElementById('progress-container').style.display = 'block';
 
+            fetchNews();
+
             fetch('/upload', {
                 method: 'POST',
                 body: formData,
@@ -200,7 +248,41 @@
                     uploadBtn.disabled = false;
                 });
         });
-        
+
+        function fetchNews() {
+            fetch('/news')
+                .then(response => response.json())
+                .then(articles => {
+                    const newsList = document.getElementById('news-list');
+                    newsList.innerHTML = '';
+                    articles.slice(0, 5).forEach(article => {
+                        const listItem = document.createElement('li');
+
+                        const title = document.createElement('div');
+                        title.className = 'news-title';
+                        title.textContent = article.title;
+
+                        const description = document.createElement('div');
+                        description.className = 'news-description';
+                        description.textContent = article.description;
+
+                        const link = document.createElement('a');
+                        link.className = 'news-link';
+                        link.href = article.url;
+                        link.textContent = 'Read more';
+                        link.target = '_blank';
+
+                        listItem.appendChild(title);
+                        listItem.appendChild(description);
+                        listItem.appendChild(link);
+
+                        newsList.appendChild(listItem);
+                    });
+                    document.getElementById('news-container').style.display = 'block';
+                })
+                .catch(error => console.error('Error fetching news:', error));
+        }
+
         socket.on('progress', (data) => {
             if (data.jobId === currentJobId) {
                 const progressElement = document.getElementById('progress');
@@ -211,8 +293,9 @@
 
         socket.on('completed', (data) => {
             if (data.jobId === currentJobId) {
+                console.log(data.downloadPath);
                 document.getElementById('download-link').style.display = 'block';
-                document.getElementById('download-btn').href = data.downloadPath;
+                document.getElementById('download-btn').href = `/download/${data.downloadPath}`;
                 document.getElementById('upload-btn').disabled = false;
                 currentJobId = null;
             }

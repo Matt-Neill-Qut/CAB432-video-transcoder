@@ -3,10 +3,8 @@ const path = require('path');
 const fs = require('fs');
 const { logToConsole } = require('./logger');
 
-// Path to the database file
 const dbPath = path.join(__dirname, 'data', 'transcoding.db');
 
-// Create a new database connection
 const db = new sqlite3.Database(dbPath, (err) => {
     if (err) {
         console.error('Error opening database:', err.message);
@@ -15,7 +13,6 @@ const db = new sqlite3.Database(dbPath, (err) => {
     }
 });
 
-// Create Users and TranscodedFiles tables if they don't exist
 db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS Users (
@@ -67,7 +64,6 @@ function cleanupTranscodedFiles() {
                 });
             });
 
-            // Delete records from the database
             db.run(
                 `DELETE FROM TranscodedFiles WHERE userId IS NULL AND dateTime < ?`,
                 [fifteenMinutesAgo],
