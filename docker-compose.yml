@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  web:
+    image: your-dockerhub-username/your-app-image
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=sqlite3:///data/database.db
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - db
+
+  db:
+    image: sqlite:latest
+    volumes:
+      - ./data:/data
+    environment:
+      - SQLITE_DB_PATH=/data/database.db
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  data:
